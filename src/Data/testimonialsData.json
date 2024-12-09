@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "image": "image2",
+      "altText": "Michael Wong",
+      "name": "Michael Wong",
+      "text": "Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.",
+      "stars": 5
+    },
+    {
+      "id": 2,
+      "image": "image1",
+      "altText": "Sarah Connor",
+      "name": "Sarah Connor",
+      "text": "Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.",
+      "stars": 4
+    },
+    {
+      "id": 3,
+      "image": "image2",
+      "altText": "John Doe",
+      "name": "John Doe",
+      "text": "Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet. Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.",
+      "stars": 5
+    }
+  ]
+  

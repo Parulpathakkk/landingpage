@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "image": "PaintBrush",
+      "altText": "ui-ux",
+      "title": "Branding and UI/UX",
+      "description": "Lorem ipsum dolor sit amet consectetur. Quam diam augue lectus vivamus metus"
+    },
+    {
+      "id": 2,
+      "image": "CreditCard",
+      "altText": "web-development",
+      "title": "Web Development",
+      "description": "Lorem ipsum dolor sit amet consectetur. Quam diam augue lectus vivamus metus"
+    },
+    {
+      "id": 3,
+      "image": "DeviceMobile",
+      "altText": "mobile-development",
+      "title": "Mobile Development",
+      "description": "Lorem ipsum dolor sit amet consectetur. Quam diam augue lectus vivamus metus"
+    },
+    {
+      "id": 4,
+      "image": "GlobeHemisphereWest",
+      "altText": "digital-marketing",
+      "title": "Digital Marketing",
+      "description": "Lorem ipsum dolor sit amet consectetur. Quam diam augue lectus vivamus metus"
+    }
+  ]
+  

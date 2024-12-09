@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "image": "BlogImage",
+      "author": "John Doe",
+      "date": "Feb 23, 2024",
+      "title": "Lorem ipsum dolor sit amet consectetur.",
+      "detailsLink": "#"
+    },
+    {
+      "id": 2,
+      "image": "BlogImage2",
+      "author": "Jane Smith",
+      "date": "Feb 22, 2024",
+      "title": "Sed ut perspiciatis unde omnis iste.",
+      "detailsLink": "#"
+    },
+    {
+      "id": 3,
+      "image": "BlogImage3",
+      "author": "Alice Johnson",
+      "date": "Feb 21, 2024",
+      "title": "Neque porro quisquam est qui dolorem ipsum.",
+      "detailsLink": "#"
+    }
+  ]
+  
