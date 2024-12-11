@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Portfolio1 from "../assets/Frame 11 (1).png";
 import Portfolio2 from "../assets/Frame 13 (1).png";
 import Portfolio3 from "../assets/Frame 10.png";
@@ -5,8 +6,14 @@ import Portfolio4 from "../assets/Frame 10 (1).png";
 import Portfolio5 from "../assets/Frame 13 (2).png";
 import Portfolio6 from "../assets/Frame 11.png";
 import ArrowRight from "../assets/ArrowRight.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Portfolio() {
+  useEffect(() => {
+    AOS.init({    
+    });
+  }, []);
   const portfolioImages = [
     Portfolio6,
     Portfolio2,
@@ -18,7 +25,7 @@ function Portfolio() {
 
   return (
     <div>
-      <div className="grid grid-cols-3 gap-[3cqw] md:gap-[2cqw] pt-[8cqw] md:pt-[3.5cqw]">
+      <div className="grid grid-cols-3 gap-[3cqw] md:gap-[2cqw] pt-[8cqw] md:pt-[3.5cqw]" data-aos="fade-up" data-aos-duration='1400'> 
         {portfolioImages.map((image, index) => (
           <div className="aspect-[16/12]" key={index}>
             <img

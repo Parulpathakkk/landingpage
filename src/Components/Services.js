@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import PaintBrush from "../assets/PaintBrush.png";
 import CreditCard from "../assets/CreditCard.png";
 import DeviceMobile from "../assets/DeviceMobile.png";
 import GlobeHemisphereWest from "../assets/GlobeHemisphereWest.png";
 import arrow from "../assets/CaretRight (2).png";
 import servicesData from "../Data/servicesData.json";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const images = {
   PaintBrush,
@@ -13,8 +17,12 @@ const images = {
 };
 
 function Services() {
+  useEffect(() => {
+    AOS.init({    
+    });
+  }, []);
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-[6cqw] md:gap-[2cqw] md:pt-[3.5cqw] pt-[8cqw]">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-[6cqw] md:gap-[2cqw] md:pt-[3.5cqw] pt-[8cqw]" data-aos="zoom-in" data-aos-duration='2000'> 
       {servicesData.map((service) => (
         <div
           key={service.id}
