@@ -91,28 +91,28 @@ function Webpage() {
               <img
                 src={google}
                 alt="google"
-                className="'w-full h-full object-cover"
+                className="'w-full md:h-full object-cover"
               />
             </div>
             <div className="w-[18cqw] md:w-[8.5cqw]">
               <img
                 src={element}
                 alt="canva"
-                className="'w-full h-full object-cover"
+                className="'w-full md:h-full object-cover"
               />
             </div>
             <div className="w-[18cqw] md:w-[8.5cqw] md:mt-[0.5cqw]">
               <img
                 src={amazon}
                 alt="amazon"
-                className="'w-full h-full object-cover"
+                className="'w-full md:h-full object-cover"
               />
             </div>
             <div className="w-[18cqw] md:w-[9cqw]">
               <img
                 src={sketch}
                 alt="sketch"
-                className="'w-full h-full object-cover"
+                className="'w-full md:h-full object-cover"
               />
             </div>
           </div>
